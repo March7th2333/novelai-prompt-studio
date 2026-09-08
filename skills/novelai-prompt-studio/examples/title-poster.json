@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "model": "v5-full",
+  "quality_tags": "off",
+  "quality_tags_text": null,
+  "uc_preset": "none",
+  "uc_preset_text": null,
+  "base_prompt": "still life, graphic poster, film grain, negative space, text, english text. A small vase sits near the lower edge, leaving an open area for the title. Text: QUIET LIGHT",
+  "characters": [],
+  "uc": "jpeg artifacts",
+  "intent": {
+    "text": true,
+    "negative_space": true,
+    "film_grain": true,
+    "logo": false,
+    "glowing_eyes": false,
+    "multiple_views": false,
+    "feet": false
+  },
+  "spec": {
+    "must_keep": [
+      "QUIET LIGHT",
+      "open space above the vase"
+    ],
+    "may_change": [],
+    "must_avoid": []
+  },
+  "locked_paths": [],
+  "generation": {
+    "seed": null,
+    "width": null,
+    "height": null,
+    "steps": null,
+    "guidance": null,
+    "sampler": null
+  }
+}

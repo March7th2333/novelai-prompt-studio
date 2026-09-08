@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "enabled_by_default": false,
+  "evidence": "design_proposal",
+  "styles": [
+    {
+      "id": "dark-pink-blue-oil",
+      "name": "黑底粉蓝油画",
+      "medium": "visible oil-paint brushwork",
+      "palette": "dark background with restrained pink and pale blue accents",
+      "composition": "one clear focal subject, sparse supporting detail",
+      "optional_elements": [
+        "a few edge crystals",
+        "one curved star trail"
+      ],
+      "not_global_defaults": true
+    },
+    {
+      "id": "quiet-watercolor",
+      "name": "安静水彩",
+      "medium": "watercolor washes and softened distant edges",
+      "palette": "limited muted pigments",
+      "composition": "open space and a single visual anchor",
+      "optional_elements": [],
+      "not_global_defaults": true
+    },
+    {
+      "id": "graphic-poster",
+      "name": "平面留白海报",
+      "medium": "flat graphic illustration",
+      "palette": "two principal colors and one accent",
+      "composition": "intentional empty area for typography",
+      "optional_elements": [],
+      "not_global_defaults": true
+    }
+  ]
+}

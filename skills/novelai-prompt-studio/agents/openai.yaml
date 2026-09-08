@@ -1,0 +1,6 @@
+interface:
+  display_name: "NovelAI 提示词工作室"
+  short_description: "画面构思、约束精修、版本检查与出图诊断"
+  default_prompt: "使用 $novelai-prompt-studio 把我的想法整理成可复制的 NovelAI 提示词；保留硬约束，检查版本与预设冲突，并给出下一轮观察点。"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "model": "v4.5-full",
+  "quality_tags": "off",
+  "quality_tags_text": null,
+  "uc_preset": "none",
+  "uc_preset_text": null,
+  "base_prompt": "1girl, solo, portrait, dark background, visible oil-paint brushwork. The face is the brightest area, with a soft cool rim light and broad empty shadows.",
+  "characters": [
+    {
+      "id": "subject-1",
+      "prompt": "girl, short pink hair, blue and white outfit, gentle smile. Her irises fade from pink at the top to pale blue at the bottom.",
+      "uc": "heterochromia",
+      "position": "center"
+    }
+  ],
+  "uc": "jpeg artifacts",
+  "intent": {
+    "text": false,
+    "negative_space": true,
+    "film_grain": false,
+    "logo": false,
+    "glowing_eyes": false,
+    "multiple_views": false,
+    "feet": false
+  },
+  "spec": {
+    "must_keep": [
+      "short pink hair",
+      "a pink-to-blue gradient within each iris",
+      "portrait framing"
+    ],
+    "may_change": [
+      "background lighting and texture"
+    ],
+    "must_avoid": [
+      "busy background",
+      "heterochromia"
+    ]
+  },
+  "locked_paths": [
+    "characters",
+    "model",
+    "generation",
+    "spec.must_keep"
+  ],
+  "generation": {
+    "seed": null,
+    "width": null,
+    "height": null,
+    "steps": null,
+    "guidance": null,
+    "sampler": null
+  }
+}

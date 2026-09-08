@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "verified_on": "2026-09-08",
+  "ids_are": "local profile keys, not NovelAI API identifiers",
+  "evidence_file": "SOURCES.md",
+  "coverage": "Selected automatic suppressors and UC risk terms only; never a complete expansion.",
+  "models": {
+    "v3-anime": {
+      "display_name": "Anime V3",
+      "numeric_emphasis": false,
+      "negative_emphasis": false,
+      "character_boxes": false,
+      "max_character_boxes": null,
+      "approx_prompt_tokens": null,
+      "prompt_token_scope": null,
+      "text_rendering": false,
+      "multilingual_prompting": false,
+      "quality_suppressors": [],
+      "uc_risks": {
+        "light": [],
+        "heavy": [],
+        "human-focus": [
+          "glowing eyes"
+        ]
+      },
+      "preset_expansion_complete": false,
+      "sources": [
+        "NAI-MODELS",
+        "NAI-WEIGHTS",
+        "NAI-QUALITY",
+        "NAI-UC",
+        "NAI-CHARACTERS",
+        "NAI-TEXT"
+      ],
+      "note": "Risk subsets only; no exact token measurement."
+    },
+    "v4-full": {
+      "display_name": "V4 Full",
+      "numeric_emphasis": true,
+      "negative_emphasis": false,
+      "character_boxes": true,
+      "max_character_boxes": 6,
+      "approx_prompt_tokens": 512,
+      "prompt_token_scope": "base_and_characters",
+      "text_rendering": true,
+      "multilingual_prompting": false,
+      "quality_suppressors": [
+        "no text"
+      ],
+      "uc_risks": {
+        "light": [],
+        "heavy": [
+          "film grain",
+          "logo",
+          "multiple views"
+        ]
+      },
+      "preset_expansion_complete": false,
+      "sources": [
+        "NAI-MODELS",
+        "NAI-WEIGHTS",
+        "NAI-QUALITY",
+        "NAI-UC",
+        "NAI-CHARACTERS",
+        "NAI-TEXT"
+      ],
+      "note": "Risk subsets only; no exact token measurement."
+    },
+    "v4-curated": {
+      "display_name": "V4 Curated",
+      "numeric_emphasis": true,
+      "negative_emphasis": false,
+      "character_boxes": true,
+      "max_character_boxes": 6,
+      "approx_prompt_tokens": 512,
+      "prompt_token_scope": "base_and_characters",
+      "text_rendering": true,
+      "multilingual_prompting": false,
+      "quality_suppressors": [],
+      "uc_risks": {
+        "light": [
+          "logo"
+        ],
+        "heavy": [
+          "film grain",
+          "logo",
+          "multiple views"
+        ]
+      },
+      "preset_expansion_complete": false,
+      "sources": [
+        "NAI-MODELS",
+        "NAI-WEIGHTS",
+        "NAI-QUALITY",
+        "NAI-UC",
+        "NAI-CHARACTERS",
+        "NAI-TEXT"
+      ],
+      "note": "Risk subsets only; no exact token measurement."
+    },
+    "v4.5-full": {
+      "display_name": "V4.5 Full",
+      "numeric_emphasis": true,
+      "negative_emphasis": true,
+      "character_boxes": true,
+      "max_character_boxes": 6,
+      "approx_prompt_tokens": 512,
+      "prompt_token_scope": "base_and_characters",
+      "text_rendering": true,
+      "multilingual_prompting": false,
+      "quality_suppressors": [
+        "no text"
+      ],
+      "uc_risks": {
+        "light": [
+          "negative space"
+        ],
+        "heavy": [
+          "negative space",
+          "film grain",
+          "logo",
+          "multiple views"
+        ],
+        "human-focus": [
+          "negative space",
+          "film grain",
+          "logo",
+          "multiple views",
+          "glowing eyes"
+        ]
+      },
+      "preset_expansion_complete": false,
+      "sources": [
+        "NAI-MODELS",
+        "NAI-WEIGHTS",
+        "NAI-QUALITY",
+        "NAI-UC",
+        "NAI-CHARACTERS",
+        "NAI-TEXT"
+      ],
+      "note": "Risk subsets only; no exact token measurement."
+    },
+    "v4.5-curated": {
+      "display_name": "V4.5 Curated",
+      "numeric_emphasis": true,
+      "negative_emphasis": true,
+      "character_boxes": true,
+      "max_character_boxes": 6,
+      "approx_prompt_tokens": 512,
+      "prompt_token_scope": "base_and_characters",
+      "text_rendering": true,
+      "multilingual_prompting": false,
+      "quality_suppressors": [
+        "no text",
+        "feet"
+      ],
+      "uc_risks": {
+        "light": [
+          "negative space",
+          "logo"
+        ],
+        "heavy": [
+          "negative space",
+          "film grain",
+          "logo",
+          "multiple views"
+        ],
+        "human-focus": [
+          "negative space",
+          "film grain",
+          "logo",
+          "multiple views",
+          "glowing eyes"
+        ]
+      },
+      "preset_expansion_complete": false,
+      "sources": [
+        "NAI-MODELS",
+        "NAI-WEIGHTS",
+        "NAI-QUALITY",
+        "NAI-UC",
+        "NAI-CHARACTERS",
+        "NAI-TEXT"
+      ],
+      "note": "Risk subsets only; no exact token measurement."
+    },
+    "v5-full": {
+      "display_name": "V5 Full",
+      "numeric_emphasis": true,
+      "negative_emphasis": true,
+      "character_boxes": true,
+      "max_character_boxes": 22,
+      "approx_prompt_tokens": 1471,
+      "prompt_token_scope": "base_only_as_documented",
+      "text_rendering": true,
+      "multilingual_prompting": true,
+      "quality_suppressors": null,
+      "uc_risks": {},
+      "preset_expansion_complete": false,
+      "sources": [
+        "NAI-MODELS",
+        "NAI-WEIGHTS",
+        "NAI-QUALITY",
+        "NAI-UC",
+        "NAI-CHARACTERS",
+        "NAI-TEXT"
+      ],
+      "note": "V5 preset expansion unknown; text-length units require current-UI verification."
+    },
+    "v5-curated": {
+      "display_name": "V5 Curated",
+      "numeric_emphasis": true,
+      "negative_emphasis": true,
+      "character_boxes": true,
+      "max_character_boxes": 22,
+      "approx_prompt_tokens": 703,
+      "prompt_token_scope": "base_only_as_documented",
+      "text_rendering": true,
+      "multilingual_prompting": true,
+      "quality_suppressors": null,
+      "uc_risks": {},
+      "preset_expansion_complete": false,
+      "sources": [
+        "NAI-MODELS",
+        "NAI-WEIGHTS",
+        "NAI-QUALITY",
+        "NAI-UC",
+        "NAI-CHARACTERS",
+        "NAI-TEXT"
+      ],
+      "note": "V5 preset expansion unknown; text-length units require current-UI verification."
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "model": "v4.5-full",
+  "quality_tags": "off",
+  "quality_tags_text": null,
+  "uc_preset": "none",
+  "uc_preset_text": null,
+  "base_prompt": "2girls, side-by-side, medium shot, quiet cafe, soft window light. The woman on the left holds a cup; the woman on the right reads a book.",
+  "characters": [
+    {
+      "id": "left-person",
+      "prompt": "girl, short pink hair, white shirt, holding a cup",
+      "uc": "blue hair",
+      "position": "left"
+    },
+    {
+      "id": "right-person",
+      "prompt": "girl, long blue hair, dark jacket, reading a book",
+      "uc": "pink hair",
+      "position": "right"
+    }
+  ],
+  "uc": "jpeg artifacts",
+  "intent": {
+    "text": false,
+    "negative_space": false,
+    "film_grain": false,
+    "logo": false,
+    "glowing_eyes": false,
+    "multiple_views": false,
+    "feet": false
+  },
+  "spec": {
+    "must_keep": [],
+    "may_change": [],
+    "must_avoid": []
+  },
+  "locked_paths": [],
+  "generation": {
+    "seed": null,
+    "width": null,
+    "height": null,
+    "steps": null,
+    "guidance": null,
+    "sampler": null
+  }
+}

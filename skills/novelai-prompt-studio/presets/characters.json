@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "enabled_by_default": false,
+  "status": "editable_draft_not_canonical_reference",
+  "characters": [
+    {
+      "id": "march-7th-inspired",
+      "name": "三月七外观草案（按本次要求确认）",
+      "identity_tag": null,
+      "appearance_proposals": [
+        "short pink hair",
+        "Her irises fade from pink at the top to pale blue at the bottom."
+      ],
+      "optional_elements": [
+        "blue and white outfit",
+        "camera accessory"
+      ],
+      "constraints": [
+        "Do not substitute heterochromia for an internal iris gradient.",
+        "Do not add props or change clothing unless requested."
+      ],
+      "evidence": "design_proposal; not a verified character-tag registry; no proprietary images included"
+    }
+  ]
+}
